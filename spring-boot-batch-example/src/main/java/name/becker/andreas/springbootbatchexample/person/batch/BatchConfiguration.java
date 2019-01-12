@@ -63,7 +63,7 @@ public class BatchConfiguration {
 			{
 				setLineTokenizer(new DelimitedLineTokenizer() {
 					{
-						setNames(new String[] { "firstName", "lastName" });
+						setNames(new String[] { "lastName", "firstName" });
 					}
 				});
 				setFieldSetMapper(new BeanWrapperFieldSetMapper<Person>() {
